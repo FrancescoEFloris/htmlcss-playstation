@@ -29,6 +29,7 @@ header {
     height: 100%;
     object-fit: cover;
 }
+/* Game images + New games images */
 .game-img-top {
     border-radius: 20px;
     padding: 3px;
@@ -36,6 +37,10 @@ header {
 }
 .game-img-top:hover {
     border: 3px solid #0070d1;
+}
+.game-img {
+    border-radius: 20px;
+    padding: 3px;
 }
 
 /* Playstation 5 Console Banner */
@@ -47,7 +52,6 @@ header {
     color: #0070d1;
 }
 .ps-text{
-    font-size: 18px;
     color: gray;
 }
 
