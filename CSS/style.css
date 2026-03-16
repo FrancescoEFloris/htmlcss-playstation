@@ -15,19 +15,19 @@ header {
 
 /* navbar */
 
-/* banner */
-.main-banner-wrapper {
+/* Game banner-1 */
+.banner-gm-wrapper {
     position: relative;
 }
-.main-banner {
+.banner-gm {
     width: 100%;
     height: 600px;
     overflow: hidden;
 }
-.main-banner img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+.banner-gm img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 .game-img-top {
     border-radius: 20px;
@@ -38,6 +38,30 @@ header {
     border: 3px solid #0070d1;
 }
 
+/* Playstation 5 Console Banner */
+.ps-title {
+    font-size: 30px;
+    font-weight: bold;
+}
+.ps-ref {
+    color: #0070d1;
+}
+.ps-text{
+    font-size: 18px;
+    color: gray;
+}
+
+
+.ps5-img {
+    opacity: 0.5;
+    display: inline-block;
+    border-bottom: 5px solid transparent;
+    transition: 0.3s;
+}
+.ps5-img:hover {
+    opacity: 1;
+    border-bottom: 5px solid #0070d1;
+}
 
 
 
