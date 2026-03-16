@@ -66,6 +66,31 @@ header {
     opacity: 1;
     border-bottom: 5px solid #0070d1;
 }
+/*  Playstation Plus  */
+.psplus-wrapper {
+    background-color: #bebcbb;
+    margin-top: 100px;
+}
+.psplus-desc {
+    padding: 30px 10px;
+}
+.psplus-logo {
+    width: 60%;
+    margin: 20px 0;
+}
+.btn-psplus {
+    background-color: #d9dadc;
+    color: #0070d1;;
+}
+.psplus-banner {
+    display: none;
+}
+@media screen and (min-width: 768px) {
+   .psplus-banner {
+    display: block;
+    height: 100%;
+} 
+}
 
 
 
