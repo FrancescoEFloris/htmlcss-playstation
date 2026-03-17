@@ -19,25 +19,30 @@ header {
 .banner-gm-wrapper {
     position: relative;
 }
+
 .banner-gm {
     width: 100%;
     height: 600px;
     overflow: hidden;
 }
+
 .banner-gm img {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
-/* Game images + New games images */
+
+/* Banner alt Games images + New games images */
 .game-img-top {
     border-radius: 20px;
     padding: 3px;
     border: 3px solid transparent;
 }
+
 .game-img-top:hover {
     border: 3px solid #0070d1;
 }
+
 .game-img {
     border-radius: 20px;
     padding: 3px;
@@ -48,10 +53,12 @@ header {
     font-size: 30px;
     font-weight: bold;
 }
+
 .ps-ref {
     color: #0070d1;
 }
-.ps-text{
+
+.ps-text {
     color: gray;
 }
 
@@ -62,36 +69,132 @@ header {
     border-bottom: 5px solid transparent;
     transition: 0.3s;
 }
+
 .ps5-img:hover {
     opacity: 1;
     border-bottom: 5px solid #0070d1;
 }
+
+@media screen and (min-width: 768px) {
+    .ps5-title {
+        font-size: 48px;
+    }
+
+    .ps5-text {
+        font-size: 20px;
+        width: 60%;
+        padding: 20px 0;
+    }
+}
+
 /*  Playstation Plus  */
 .psplus-wrapper {
     background-color: #bebcbb;
     margin-top: 100px;
 }
+
 .psplus-desc {
     padding: 30px 10px;
 }
+
 .psplus-logo {
     width: 60%;
     margin: 20px 0;
 }
+
 .btn-psplus {
     background-color: #d9dadc;
-    color: #0070d1;;
+    color: #0070d1;
 }
+
 .psplus-banner {
     display: none;
 }
+
 @media screen and (min-width: 768px) {
-   .psplus-banner {
-    display: block;
-    height: 100%;
-} 
+    .psplus-banner {
+        display: block;
+        height: 100%;
+    }
+}
+
+/*  Playstation sales  */
+.sales-container {
+    margin: 60px auto;
+}
+
+.ps-sales-title {
+    padding: 0 10px;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+/*  Playstation Now  */
+.psnow-wrapper {
+    background-color: #161c3b;
+    margin-bottom: 60px;
+}
+
+.psnow-desc {
+    padding: 20px 10px;
+}
+
+.psnow-logo {
+    width: 60%;
+    margin-bottom: 20px;
+}
+
+.btn-psnow {
+    background-color: #d9dadc;
+}
+
+.psnow-banner {
+    display: none;
+}
+
+@media screen and (min-width: 768px) {
+    .psnow-banner {
+        display: block;
+        height: 100%;
+    }
 }
 
 
 
+/*  icon + region  */
+.footer-logo {
+    width: 80px;
+    margin-bottom: 20px;
+}
 
+.region-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: white;
+}
+
+.lang-ico {
+    width: 16px;
+}
+
+/*  Links  */
+.link-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.link-container * {
+    color: white;
+    text-decoration: none;
+}
+
+/*  Footer  */
+.footer-wrapper {
+    padding: 60px 20px;
+}
+
+/*  footers's footer  */
+.sie-logo {
+    width: 150px;
+}
