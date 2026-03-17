@@ -19,7 +19,14 @@ header {
 .src-lens {
     width: 30px;
 }
+.drop-check {
+  width: 10px;
+  transition: transform 0.1s ease;
+}
 
+.dropdown .show .drop-check {
+  transform: rotate(180deg);
+}
 
 
 /* Game banner-1 */
