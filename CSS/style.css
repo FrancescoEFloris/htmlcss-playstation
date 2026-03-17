@@ -13,10 +13,14 @@ header {
     padding: 12px;
 }
 
+
+
 /* navbar */
 .src-lens {
     width: 30px;
 }
+
+
 
 /* Game banner-1 */
 .banner-gm-wrapper {
@@ -34,6 +38,8 @@ header {
     height: 100%;
     object-fit: cover;
 }
+
+
 
 /* Game banner-1 overlay */
 .returnal-sticker {
@@ -70,8 +76,6 @@ header {
 
 
 
-
-
 /* Banner alt Games images + New games images */
 .game-img-top {
     border-radius: 20px;
@@ -87,6 +91,8 @@ header {
     border-radius: 20px;
     padding: 3px;
 }
+
+
 
 /* Playstation 5 Console Banner */
 .ps-title {
@@ -127,6 +133,8 @@ header {
     }
 }
 
+
+
 /*  Playstation Plus  */
 .psplus-wrapper {
     background-color: #bebcbb;
@@ -159,6 +167,8 @@ header {
     }
 }
 
+
+
 /*  Playstation sales  */
 .sales-container {
     margin: 60px auto;
@@ -169,6 +179,8 @@ header {
     font-size: 36px;
     font-weight: bold;
 }
+
+
 
 /*  Playstation Now  */
 .psnow-wrapper {
@@ -220,6 +232,8 @@ header {
     width: 16px;
 }
 
+
+
 /*  Links  */
 .link-container {
     display: flex;
@@ -231,10 +245,14 @@ header {
     text-decoration: none;
 }
 
+
+
 /*  Footer  */
 .footer-wrapper {
     padding: 60px 20px;
 }
+
+
 
 /*  footers's footer  */
 .sie-logo {
