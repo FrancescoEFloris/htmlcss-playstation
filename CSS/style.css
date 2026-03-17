@@ -31,6 +31,39 @@ header {
     height: 100%;
     object-fit: cover;
 }
+    /* Game banner-1 overlay */
+.returnal-sticker {
+    position: absolute;
+    bottom: 250px;
+    left: 40px;
+    width: 250px;
+}
+.itt2-sticker {
+    position: absolute;
+    bottom: 250px;
+    left: 40px;
+    width: 420px;
+}
+
+.banner-gm-text {
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
+    max-width: 400px;
+}
+.banner-gm-text h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: white;
+}
+.banner-gm-text p {
+    margin-bottom: 20px;
+    color: white;
+}
+
+
+
+
 
 /* Banner alt Games images + New games images */
 .game-img-top {
@@ -91,6 +124,7 @@ header {
 .psplus-wrapper {
     background-color: #bebcbb;
     margin-top: 100px;
+    padding: 0 20px;
 }
 
 .psplus-desc {
@@ -133,6 +167,7 @@ header {
 .psnow-wrapper {
     background-color: #161c3b;
     margin-bottom: 60px;
+    padding: 0 20px;
 }
 
 .psnow-desc {
